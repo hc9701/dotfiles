@@ -27,7 +27,6 @@
 
 "plugin
     filetype off
-    "设置包括vundle和初始化相关的runtime path
    " if filereadable(expand("~/.vimrc.bundles"))
    "  source ~/.vimrc.bundles
    " endif
