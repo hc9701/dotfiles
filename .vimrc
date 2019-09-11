@@ -10,6 +10,10 @@
     autocmd InsertLeave * set nocul
     "用浅色高亮当前行
     autocmd InsertEnter * set cul
+    "file encodings
+    set encoding=utf-8
+    set fileencodings=utf-8,gb2312,gb18030,gb13000,gbk,ucs-bom,cp936,latin1 " 如果你要打开的文件编码不在此列，那就添加进去
+    set termencoding=utf-8
 
 "indent
     "auto indent
